@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.givemetap.com/.well-known/
+host: https://www.givemetap.com
+note: >-
+  GiveMeTap is a Shopify-hosted e-commerce storefront with no first-party
+  developer API. The openid-configuration / oauth-authorization-server
+  documents below are served by the Shopify customer-account authentication
+  platform (issuer https://shopify.com/authentication/1981938), present on
+  every Shopify store — they govern shopper login, not a GiveMeTap API.
+  Captured verbatim as honestly-fetched real documents.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: givemetap-openid-configuration.json
+    provider: shopify-customer-accounts
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: givemetap-oauth-authorization-server.json
+    provider: shopify-customer-accounts
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
