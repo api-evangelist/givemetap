@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/givemetap.png
 name: Givemetap
-description: >-
-  GiveMeTap is a UK-based social-enterprise consumer brand that designs and
-  sells reusable, BPA-free stainless-steel and insulated water bottles (500ml
-  and 700ml, plus custom co-branded bottles for businesses). For every bottle
-  sold, GiveMeTap funds five years of clean drinking water for a person in
-  Ghana, giving 20% of its revenue to water projects in Africa; the company
-  reports 116,391 people reached with clean water for life. It operates a
-  direct-to-consumer e-commerce storefront on the Shopify platform. GiveMeTap
-  is a physical-products company with no first-party developer API, developer
-  portal, or public API documentation; it was surfaced as a Y Combinator
-  portfolio lead and added to the API Evangelist network as a stub.
+description: GiveMeTap is a UK-based social-enterprise consumer brand that designs and sells reusable,
+  BPA-free stainless-steel and insulated water bottles (500ml and 700ml, plus custom co-branded bottles
+  for businesses). For every bottle sold, GiveMeTap funds five years of clean drinking water for a person
+  in Ghana, giving 20% of its revenue to water projects in Africa; the company reports 116,391 people
+  reached with clean water for life. It operates a direct-to-consumer e-commerce storefront on the Shopify
+  platform. GiveMeTap is a physical-products company with no first-party developer API, developer portal,
+  or public API documentation; it was surfaced as a Y Combinator portfolio lead and added to the API Evangelist
+  network as a stub.
 url: https://raw.githubusercontent.com/api-evangelist/givemetap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -30,8 +27,6 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-no-api: true
-x-no-api-reason: consumer physical-products e-commerce brand (Shopify storefront); no developer API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-19'
@@ -61,3 +56,10 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: consumer physical-products e-commerce brand (Shopify storefront); no developer API surface
+  evidence: []
+  checked: '2026-08-04'
+  migrated: true
