@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/givemetap/integrations
+- https://n8n.io/integrations/givemetap/
+- https://composio.dev/toolkits/givemetap
+- https://monid.ai/tools/givemetap
+checked:
+- https://composio.dev/toolkits/givemetap
+- https://monid.ai/tools/givemetap
+- https://n8n.io/integrations/givemetap/
+- https://zapier.com/apps/givemetap/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
